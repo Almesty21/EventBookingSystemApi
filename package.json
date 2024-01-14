@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "openflow",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "chai": "^5.0.0",
+    "chai-http": "^4.4.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "joe": "^2.0.2",
+    "joi": "^17.11.0",
+    "joi-password-complexity": "^5.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mocha": "^10.2.0",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.4",
+    "morgan": "^1.10.0",
+    "nodemodule": "^0.3.0",
+    "nodemon": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.8"
+  }
+}
